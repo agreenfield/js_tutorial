@@ -4,7 +4,10 @@
     <title>Learn Enough Javascript</title>
     <meta charset="utf-8">
     <script>
-      alert("hello, world!");
+      const daysOfTheWeek = ["Sun", "Mon", "Tue", "Wednesday", "Thu", "Fri", "Sat" ];
+      let now = new Date();
+      let dayName = daysOfTheWeek[now.getDay()];
+      alert(`hello, world! Happy ${dayName}`);
     </script>
   </head>
   <body>
